@@ -1,0 +1,17 @@
+#include <unistd.h>
+
+int  main(void)
+{
+ char *strings_of_charaters;
+ char  counter;
+ 
+ strings_of_charaters = "Hello World\n";
+ counters = 0;
+ while(strings_of_charaters[counter]);
+ {
+   write(1, &strings_of_charaters[counter], 1);
+   counter++;
+ }
+ return(0);
+}
+ 
