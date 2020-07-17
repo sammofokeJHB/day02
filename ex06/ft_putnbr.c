@@ -16,10 +16,5 @@ int ft_putnbr(char c, int n)
 			i=i
 		}
 }
-
-int main()
-{ 
-	ft_putchar('0', 42);
-	ft_putchar('\n');
-	return(0);
+	return(i);
 }
